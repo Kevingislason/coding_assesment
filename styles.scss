@@ -1,0 +1,18 @@
+.panel {
+  border: 2px solid #444;
+
+  .panel-heading {
+    font-size: 20px;
+  }
+
+  .sub-panel {
+    font-size: 20px;
+    &.active {
+      background: yellow;
+    }
+  }
+}
+
+span:first-of-type:after {
+  content: '-';
+}
